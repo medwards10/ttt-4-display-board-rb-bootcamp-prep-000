@@ -21,4 +21,3 @@ def display_board
   output = capture_puts{ display_board(board) }
   rows = output.split("\n")
 end
-
