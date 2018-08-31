@@ -16,4 +16,9 @@ def display_board
   puts ("   | X |   ")
   puts ("-----------")
   puts ("   |   |   ")
+
+
+  output = capture_puts{ display_board(board) }
+  rows = output.split("\n")
 end
+
